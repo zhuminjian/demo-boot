@@ -33,7 +33,7 @@ public class SwaggerConfig {
                 .pathMapping("/")
                 .select()
 //                .apis(Predicates.not(RequestHandlerSelectors.basePackage("org.springframework.boot")))
-                .apis(Predicates.not(RequestHandlerSelectors.basePackage("com.xe.demo.controller")))
+                .apis(Predicates.and(RequestHandlerSelectors.basePackage("com.xe.demo.resource")))
                 
                 .build()
                 .apiInfo(testApiInfo());
