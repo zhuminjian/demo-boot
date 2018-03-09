@@ -1,0 +1,11 @@
+.idea/
+*.iml
+target/
+*.class
+.idea/vcs.xml
+
+.xlsx
+.xls
+
+logs/
+
